@@ -1,4 +1,5 @@
-package com.tns.jdbccurd.client;
+package com.tns.jdbccrud.client;
+
 import java.sql.SQLException;
 
 import com.tns.jdbccrud.service.Service;
