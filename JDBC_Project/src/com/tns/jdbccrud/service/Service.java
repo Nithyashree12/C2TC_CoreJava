@@ -13,7 +13,7 @@ public class Service {
 	Connection con;
 	
 	public Service() throws SQLException {
-		this.con = _Using_Statement.getConnectionObject();
+		this.con =_Using_Statement.getConnectionObject();
 		this.st = con.createStatement();
 	}
 	//Using Prepared statement
